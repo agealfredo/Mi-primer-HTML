@@ -9,16 +9,51 @@
     <header>
         <h1>Bienvenidos a mi blog</h1>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Acerca de</a>
-            <a href="#">Contacto</a>
+            <a href="inicio">Inicio</a>
+            <a href="sobre-mi">Acerca de</a>
+            <a href="contactame">Contacto</a>
         </nav>
     </header>
     <main id="Inicio">
         <section>
             <h2>Mi nombre es Alfredo Gutierrez</h2>
             <p>Soy el <em> alumno </em> mas feliz de <strong> DevF </strong></p>
+            <img src="./src/img/IMG_0427.jpeg" alt="Fotografia del alumno Alfredo Gutierrez">
         </section>
     </main>
+    <div id="sobre-mi">
+        <h2>Sobre mi</h2>
+        <p>Me encanta aprender de desarrollo web en Devf y en mis tiempos libres me dedico a mi y trabajo brindando soporte.</p>
+        <br>
+        <p>Mis colores favoritos son:</p>
+        <ul>
+            <li>El amarillo</li>
+            <li>Azul marino</li>
+            <li>Beige</li>
+            <li>Negro</li>
+
+        </ul>
+        <p>Mis reedes sociales son: </p>
+        <ol>
+            <li>Intagram: <a href="https://www.instagram.com/alfredoage/">Alfredoage <span>👀</span></a></li>
+        </ol>
+    </div>
+    <div id="contactame">
+
+    </div>
+    <form action="#" method="post">
+        <h2>Contactame </h2>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Correo electronico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+        <input type="submit" value="enviar"><br>
+    </form>
+    
+    <footer>
+        <p>2025 Mi blog. Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
