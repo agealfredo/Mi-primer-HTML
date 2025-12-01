@@ -8,9 +8,9 @@
     <title>Mi blog</title>
 </head>
 <body>
-    <header>
+    <header class="mi-clase">
         <h1>Bienvenidos a mi blog</h1>
-        <nav>
+        <nav class="mi-clase">
             <a href="inicio">Inicio</a>
             <a href="sobre-mi">Acerca de</a>
             <a href="contactame">Contacto</a>
@@ -23,13 +23,13 @@
             <img src="./src/img/IMG_0427.jpeg" alt="Fotografia del alumno Alfredo Gutierrez">
         </section>
     </main>
-    <div id="sobre-mi">
-        <h2>Sobre mi</h2>
+    <div id="sobre-mi" class="mi-clase">
+        <h2 class="mi-clase">Sobre mi</h2>
         <p>Me encanta aprender de desarrollo web en Devf y en mis tiempos libres me dedico a mi y trabajo brindando soporte.</p>
         <br>
         <p>Mis colores favoritos son:</p>
         <ul>
-            <li>El amarillo</li>
+            <li id="mi-id">El amarillo</li>
             <li>Azul marino</li>
             <li>Beige</li>
             <li>Negro</li>
@@ -51,7 +51,7 @@
         <input type="email" id="email" name="email" required><br>
         <label for="mensaje">Mensaje:</label><br>
         <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
-        <input type="submit" value="enviar"><br>
+        <button type="submit">Enviar</button>
     </form>
 
     <footer>

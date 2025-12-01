@@ -1,12 +1,51 @@
-body {
-    background-color: beige;
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+body {
+    background-color: #ccd5ae;
+    color: #023047;
+}
+
+/*Estilo para todos los parrafos (etiqueta p)*/
+p { 
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Estilo para la clase "mi-clase" esto va dentro de la etiqueta en el atributo class="mi-clase"*/
+.mi-clase{
+      color: #669bbc;
+      display: inline;
+ 
+}
+/* Estilo para la clase id "mi-id" esto va dentro de la etiqueta en el atributo id="mi-id"*/
+#mi-id{
+    font-size: large;
+}
+
 .start {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: bisque;
-    color: brown;
+     color: #669bbc;
+}
+
+/*Estilo para los enlaces dentro de la clase "mi-clase" combinacion */
+.mi-clase a{
+     font-style: oblique;
+     text-align: center;
+      color: #780000;
 }
 img {
     width: 200px;
-    border-radius: 15%;
+    
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    background-color: #bc4749;
+}
+button:hover{
+    background-color: #003049;
+    color: white;
 }
